@@ -1,0 +1,15 @@
+app:
+  security:
+    jwt:
+      secret: bp1E1VL6y4mMMfmJO9sgkqfZA7xbPgBLS415x5FEizE=
+      issuer: practica
+      ttlMillis: 3600000
+spring:
+  main:
+    allow-circular-references: true
+
+
+logging:
+  level:
+    root: WARN
+    com.martzatech.vdhg.crmprojectback: INFO
